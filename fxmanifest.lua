@@ -17,9 +17,13 @@ files {
     "ui/mugshot.png"
 }
 
-server_scripts {
-    '@async/async.lua',
+shared_scripts {
+	'@async/async.lua',
     '@mysql-async/lib/MySQL.lua',
+	'config.lua'
+}
+
+server_scripts {
     "server/main.lua",
     "server/vehcolors.lua"
 }
