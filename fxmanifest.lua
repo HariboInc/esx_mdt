@@ -20,6 +20,8 @@ files {
 shared_scripts {
 	'@async/async.lua',
     '@mysql-async/lib/MySQL.lua',
+    '@es_extended/locale.lua',
+    'locales/*.lua',
 	'config.lua'
 }
 

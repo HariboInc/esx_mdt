@@ -1,3 +1,9 @@
+--Example
+-- model = Spawn name , how you spawn the vehicle. ex: a8audi
+-- name = How you call the vehicle. ex: Audi A8
+-- AddTExtEntry('model', 'name')
+
+
 Citizen.CreateThread(function()    
     --Alfa Romeo
     AddTextEntry('giulia', 'Alfa Romeo Giulia')
@@ -122,7 +128,6 @@ Citizen.CreateThread(function()
     --Mercedes
     AddTextEntry('mp412c', 'McLaren MP412C')
     AddTextEntry('scaldarsi', 'Maybach Scaldarsi')
-
     AddTextEntry('gle63s', 'Mercedes GLE63s')
     AddTextEntry('mlbrabus', 'Mercedes Brabus')
     AddTextEntry('19S650', 'Mercedes Maybach')
